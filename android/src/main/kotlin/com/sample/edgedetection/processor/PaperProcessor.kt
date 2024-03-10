@@ -63,7 +63,7 @@ fun enhancePicture(src: Bitmap?): Bitmap {
         srcMat,
         srcMat,
         255.0,
-        Imgproc.ADAPTIVE_THRESH_MEAN_C,
+        Imgproc.ADAPTIVE_THRESH_GAUSSIAN_C,
         Imgproc.THRESH_BINARY,
         15,
         15.0
